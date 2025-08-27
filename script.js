@@ -19,11 +19,12 @@ form.addEventListener("submit", function (event1){
 
   const form1 = document.getElementById("feedbackForm");
   console.log(form1.children);
+  
   const form1Length = form1Child.children.length;
   const form1Parent= form1.parentElement;
 
   console.log(form1Child);
-  console.log("Form parent is: " + form1Parent);
+  console.log("Form parent is: " + form1);
   console.log("Form length is: " + form1Length);
 
   /* 2. Extract values */
